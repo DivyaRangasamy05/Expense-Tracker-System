@@ -85,7 +85,7 @@ public class ExpenseTracker {
             con.close();
 
         } catch (Exception e) {
-            System.out.println("Error: " + e);
+            System.out.println("Error-Invalid date format, please use YYYY-MM-DD: " + e);
         }
     }
 
